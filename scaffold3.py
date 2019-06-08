@@ -3,7 +3,7 @@
 import random
 
 def hangman():
-    #word_list = ["вирус", "программа", "компьютер", "хакер", "взлом"]
+    #word_list = ["Тони", "Старк", "умрёт", "в", "финале"]
     word_list = []
     with open('word_rus.txt') as f:
         word_list = f.read().splitlines()
